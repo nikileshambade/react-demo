@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Routes from './feature-module/routes';
 
 ReactDOM.render(
-  <div>Hello React Demo</div>,
+  <Router>
+    <Routes></Routes>
+  </Router>,
   document.getElementById('root')
 )
